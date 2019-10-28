@@ -1,0 +1,161 @@
+/*-------------------------------------------*\
+Table of Contents
+   - General
+   - Typography
+   - Sections
+\*-------------------------------------------*/
+
+
+/*  General  */
+
+body{
+  /*  Set default font  */ font-family: 'Karla', sans-serif;
+  /*  Set default font color  */ color: #292828;
+}
+
+
+/*  Typography  */
+
+h1  {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 45px;	
+  font-weight: 600;	
+  line-height: 116px;	
+  text-align: center;
+}
+h2  {
+  /*font-family: 'Karla', sans-serif;*/
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 41px;	
+  text-align: center;
+}
+h3  {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 30px;	
+  font-weight: 600;	
+  line-height: 77px;	
+  text-align: center;
+  
+}
+h4  {
+  color: #ffffff;
+  font-size: 40px;	
+  font-weight: bold;	
+  line-height: 47px;	
+  text-align: center;  
+}
+h5  {
+  font-size: 14px;	
+  font-weight: normal;
+  letter-spacing: 0.7px;	
+  line-height: 17px;	
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+h6  {
+  color: #a5a4a4;
+  font-size: 14px;	
+  font-weight: normal;
+  line-height: 26px;	
+  text-align: center;
+  
+}
+
+p {
+  font-size: 16px;	
+  line-height: 26px;
+  
+}
+
+/*  Section Styles  */
+
+header  {
+	background-color: #F3F3F3;
+    padding: 8% 10% 0 10%;
+    display: block;
+    text-align: center;
+}
+
+.subheading {       /*aded during adjustment*/
+    max-width: 50%;
+    display: inline-block;
+    margin-top: 30px; 
+    
+}
+
+.subheading a{       /*aded during adjustment*/
+    text-decoration: none;
+    color: #292828;
+    border-bottom: 2px solid #F43F3F;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.blog {
+    background-color: #F3F3F3;
+    display: block;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+}
+
+
+.blog-posts {
+    background-color: #292828;
+    display: inline-block;
+    width: 400px;
+    margin: 26px;
+    align-content: center;
+    
+}
+
+.blog-description {
+    padding: 10px 34px 15px 34px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.stats {
+    
+    padding: 0 10%;
+    padding-top: 55px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.stat-single {
+    width: 250px;	
+    border: 4px solid #292828;	
+    border-radius: 0 0 12px 12px;
+    margin: 20px;
+    text-align: center;
+}
+
+.stat-single h5{
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+
+.number {
+    background-color: #1D1D1D;
+    padding: 20px;
+}
+
+
+.icon {
+    padding: 35px 35px 0 35px;
+}
+
+footer {
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+footer a {       /*aded during adjustment*/
+    color: #A5A4A4;
+}
